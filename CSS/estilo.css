@@ -1,0 +1,74 @@
+*{
+    background-color:rgb(243, 216, 221);
+    font-size: large;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
+  .img{
+    justify-content: center;
+    height: 290px;
+    width: 690px;
+  }
+.accordion {
+    margin: 10px;
+  }
+  /*margen del acordeon*/
+  .accordion-item {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* margen del acordeon */
+  .accordion-header {
+    background-color: #d1afaf;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el contenido del acordeón */
+  .accordion-body {
+    padding: 10px;
+  }
+
+  /*para hoobies**/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+.card {
+    width: calc(33% - 20px); 
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+/*carusel*/
+.carousel-item img {
+
+    max-width: 60%; 
+    height: auto; 
+    display: block; 
+    margin: auto; 
+  }
+.carousel {
+    margin: auto; 
+    width: 80%; 
+}
